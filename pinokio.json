@@ -1,0 +1,14 @@
+{
+  "title": "SDCodex",
+  "description": "Local model library, Civitai explorer, download manager, and plugin hub.",
+  "links": [
+    {
+      "title": "SDCodex Core",
+      "value": "https://github.com/LainStable/SDCodex"
+    },
+    {
+      "title": "Pinokio Launcher",
+      "value": "https://github.com/LainStable/SDCodex-Pinokio"
+    }
+  ]
+}
