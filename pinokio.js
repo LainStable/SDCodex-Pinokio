@@ -2,6 +2,7 @@ module.exports = {
   version: "8.0.0",
   title: "SDCodex",
   description: "Local model library, Civitai explorer, download manager, and plugin hub.",
+  icon: "icon.png",
   menu: async (kernel, info) => {
     const installed = info.exists("app/backend/sdcodex/static/index.html");
     const running = {
