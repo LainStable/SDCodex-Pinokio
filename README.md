@@ -17,7 +17,11 @@ dependencies; no Docker installation or AI model download is required.
    backend is ready.
 3. On a fresh installation, create the first administrator account in the
    browser. Subsequent visits use the configured sign-in method.
-4. Use **Update** to update the launcher and core repository. Use **Reset** to
+4. Use **Configure** to choose a fixed port and bind address. Stop and start
+   SDCodex after changing these settings. Keep `127.0.0.1` for a reverse proxy
+   on the same machine. Select `0.0.0.0` only when a proxy on another machine
+   needs to connect, and secure network access with your firewall and proxy.
+5. Use **Update** to update the launcher and core repository. Use **Reset** to
    remove generated environments and frontend build files before reinstalling.
 
 Reset preserves the cloned SDCodex source and its local database, settings,
